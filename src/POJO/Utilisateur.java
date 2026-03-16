@@ -20,7 +20,7 @@ public class Utilisateur {
 	private String telephonePortable;
 	private String mail;
 	private Date dateEmbauche;
-	
+
 	// Constructeur
 	public Utilisateur(String idUtilisateur, Role idRole, String nom, String prenom, String login, String mdp,
 			Date dateCreationMdp, String adresse, String cp, String ville, String region, String telephoneFixe,
@@ -165,11 +165,8 @@ public class Utilisateur {
 
 	// toString
 	public String toString() {
-		return idUtilisateur + idRole + nom 
-				+ prenom + login + mdp + dateCreationMdp + 
-				adresse + cp + ville + region 
-				+ telephoneFixe + telephonePortable + mail
-				+ dateEmbauche;
+		return idUtilisateur + idRole + nom + prenom + login + mdp + dateCreationMdp + adresse + cp + ville + region
+				+ telephoneFixe + telephonePortable + mail + dateEmbauche;
 	}
 
 }
